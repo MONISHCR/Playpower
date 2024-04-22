@@ -1,0 +1,71 @@
+/* App.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.dropdown-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.slider-container {
+  width: 300px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slider {
+  width: calc(100% - 22px);
+  margin: 0 11px;
+}
+
+.timezone-label {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.time-display {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+.icons-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icon {
+  display: inline-block;
+  margin: 0 10px;
+}
